@@ -12,6 +12,6 @@ AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 //adoDotNetExample.Create("Author","Title", "Content");
 //adoDotNetExample.Update(1, "Author", "Title", "Content");
 //adoDotNetExample.Delete(11);
-adoDotNetExample.Edit(11);
-adoDotNetExample.Edit(9);
+adoDotNetExample.Edit(1);
+adoDotNetExample.Edit(3);
 Console.ReadKey();
