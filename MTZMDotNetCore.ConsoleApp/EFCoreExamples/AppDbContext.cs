@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using MTZMDotNetCore.ConsoleApp.Dtos;
 using MTZMDotNetCore.ConsoleApp.Services;
 
-namespace MTZMDotNetCore.ConsoleApp
+namespace MTZMDotNetCore.ConsoleApp.EFCoreExamples
 {
     internal class AppDbContext : DbContext
     {
