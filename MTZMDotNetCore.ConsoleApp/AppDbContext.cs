@@ -5,6 +5,8 @@ using System.Linq;
 using System.Data.SqlClient;
 using System.Text;
 using System.Threading.Tasks;
+using MTZMDotNetCore.ConsoleApp.Dtos;
+using MTZMDotNetCore.ConsoleApp.Services;
 
 namespace MTZMDotNetCore.ConsoleApp
 {

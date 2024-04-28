@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MTZMDotNetCore.ConsoleApp
+namespace MTZMDotNetCore.ConsoleApp.Services
 {
     internal class ConnectionStrings
     {
@@ -18,5 +18,5 @@ namespace MTZMDotNetCore.ConsoleApp
             Password = "12345",
         };
 
-    } 
+    }
 }

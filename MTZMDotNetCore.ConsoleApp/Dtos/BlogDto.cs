@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MTZMDotNetCore.ConsoleApp
+namespace MTZMDotNetCore.ConsoleApp.Dtos
 {
     internal class BlogDto
     {
         public int BlogId { get; set; }
-        public String BlogTitle { get; set; }
+        public string BlogTitle { get; set; }
 
-        public String BlogAuthor { get; set; }
+        public string BlogAuthor { get; set; }
 
-        public String BlogContent { get; set; }
+        public string BlogContent { get; set; }
 
 
     }

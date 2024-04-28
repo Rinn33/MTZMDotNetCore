@@ -7,8 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Security.Cryptography.X509Certificates;
+using MTZMDotNetCore.ConsoleApp.Dtos;
+using MTZMDotNetCore.ConsoleApp.Services;
 
-namespace MTZMDotNetCore.ConsoleApp
+namespace MTZMDotNetCore.ConsoleApp.DapperExamples
 {
     internal class DapperExample
     {
@@ -100,7 +102,7 @@ namespace MTZMDotNetCore.ConsoleApp
             var item = new BlogDto
             {
                 BlogId = id
-               
+
             };
             string query = @"DELETE FROM [dbo].[Tbl_Blog]
                                WHERE [BlogId]=@BlogId";

@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using MTZMDotNetCore.ConsoleApp;
+using MTZMDotNetCore.ConsoleApp.DapperExamples;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data;
 using System.Data.SqlClient;
